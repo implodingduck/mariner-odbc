@@ -40,16 +40,13 @@ The rough file struction should look something like this:
 ```
 
 You will then need environment variables to help make sure all the items are properly accessible
-
+```
 ODBCSYSINI=/odbctest/etc/unixODBC
-
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/odbctest/usr/bin
-
 LD_LIBRARY_PATH=/odbctest/usr/lib:/odbctest/opt/microsoft/msodbcsql18/lib64:/odbctest/usr/lib64
-
 ACCEPT_EULA=Y
-
 GCONV_PATH=/odbctest/usr/lib64/gconv
+```
 
 Configure the odbc ini files...
 
