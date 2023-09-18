@@ -22,7 +22,7 @@ Download the following packages from the CBL-Mariner repo
 * https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/l/libltdl-2.4.6-8.cm2.x86_64.rpm
 * https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/g/glibc-iconv-2.35-4.cm2.x86_64.rpm
 
-Use a tool like ![7-zip](https://www.7-zip.org/) or ![rpm2cpio](https://www.man7.org/linux/man-pages/man8/rpm2cpio.8.html) to extract the contents of the above RPMs into a fileshare directory. NOTE: you might need to recreate symlinks in the lib/lib64 directories after getting the files on the fileshare.
+Use a tool like [7-zip](https://www.7-zip.org/) or [rpm2cpio](https://www.man7.org/linux/man-pages/man8/rpm2cpio.8.html) to extract the contents of the above RPMs into a fileshare directory. NOTE: you might need to recreate symlinks in the lib/lib64 directories after getting the files on the fileshare.
 
 The rough file struction should look something like this:
 ```
